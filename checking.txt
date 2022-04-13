@@ -3,7 +3,7 @@ transmission1.txt ====> 3 veces.
 427, 615, 857
 transmission2.txt ====> 2 veces.
 574, 667
-transmission3.txt ====> No match
+transmission3.txt ====> No match.
 -------------------------------------------------------------------------
 Codigo: A13
 transmission1.txt ====> 3 veces.
@@ -14,27 +14,27 @@ transmission3.txt ====> 1 vez.
 344
 -------------------------------------------------------------------------
 Codigo: 73A2
-transmission1.txt ====> No match
-transmission2.txt ====> No match
-transmission3.txt ====> No match
+transmission1.txt ====> No match.
+transmission2.txt ====> No match.
+transmission3.txt ====> No match.
 -------------------------------------------------------------------------
 Codigo: 1C3
-transmission1.txt ====> No match
-transmission2.txt ====> No match
+transmission1.txt ====> No match.
+transmission2.txt ====> No match.
 transmission3.txt ====> 1 vez.
 527
 -------------------------------------------------------------------------
 Codigo: CDEC
 transmission1.txt ====> 4 veces.
 0, 463, 640, 705
-transmission2.txt ====> No match
+transmission2.txt ====> No match.
 transmission3.txt ====> 4 veces.
 17, 269, 282, 466
 -------------------------------------------------------------------------
 Codigo: FFF
 transmission1.txt ====> 1 vez.
 764
-transmission2.txt ====> No match
+transmission2.txt ====> No match.
 transmission3.txt ====> 5 veces.
 352, 353, 354, 355, 356
 -------------------------------------------------------------------------
@@ -51,7 +51,7 @@ transmission1.txt ====> 2 veces.
 29, 708
 transmission2.txt ====> 1 vez.
 994
-transmission3.txt ====> No match
+transmission3.txt ====> No match.
 -------------------------------------------------------------------------
 Codigo: 77
 transmission1.txt ====> 4 veces.
@@ -62,10 +62,10 @@ transmission3.txt ====> 6 veces.
 66, 427, 637, 638, 639, 640
 -------------------------------------------------------------------------
 Codigo: 567
-transmission1.txt ====> No match
+transmission1.txt ====> No match.
 transmission2.txt ====> 1 vez.
 272
-transmission3.txt ====> No match
+transmission3.txt ====> No match.
 
 =========================================================================
 =========================================================================
@@ -81,4 +81,7 @@ transmission3.txt ====> Posicion: 351
 =========================================================================
 =========================================================================
 
-Substring mas largo: 571139
+Substring en comun mas largo: 
+transmission1.txt vs transmission2.txt ====> 943A5.
+transmission1.txt vs transmission3.txt ====> CDEC.
+transmission2.txt vs transmission3.txt ====> 571139.

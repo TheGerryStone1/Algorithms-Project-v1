@@ -240,7 +240,7 @@ int main()
 
             outfile << transmissionsNames[i] << " ====> ";
 
-            if(posMatch.size() == 0) outfile << "No match";
+            if(posMatch.size() == 0) outfile << "No match.";
             else
             {
                 outfile << posMatch.size();
@@ -286,14 +286,21 @@ int main()
     //LONGEST COMMON SUBSTRING || LONGEST COMMON SUBSTRING || LONGEST COMMON SUBSTRING || LONGEST COMMON SUBSTRING
 
     string transmission1 = transmissionsContent[0], transmission2 = transmissionsContent[1], transmission3 = transmissionsContent[2];
+    string transmissionName1 = transmissionsNames[0], transmissionName2 = transmissionsNames[1], transmissionName3 = transmissionsNames[2];
+
     int size1 = transmission1.length(), size2 = transmission2.length(), size3 = transmission3.length();
     string lcs1 = longestCommonSubstring(transmission1, transmission2, size1, size2);
     string lcs2 = longestCommonSubstring(transmission1, transmission3, size1, size3);
     string lcs3 = longestCommonSubstring(transmission2, transmission3, size2, size3);
     
-    if(lcs1.size() >= lcs2.size() && lcs1.size() >= lcs3.size()) outfile << "Substring mas largo: " << lcs1 << endl;
+    /*if(lcs1.size() >= lcs2.size() && lcs1.size() >= lcs3.size()) outfile << "Substring mas largo: " << lcs1 << endl;
     else if (lcs2.size() >= lcs1.size() && lcs2.size() >= lcs3.size()) outfile << "Substring mas largo: " << lcs2 << endl;
-    else outfile << "Substring mas largo: " << lcs3 << endl;
+    else outfile << "Substring mas largo: " << lcs3 << endl;*/
+    outfile << "Substring en comun mas largo: " << endl;
+
+    outfile << transmissionName1 << " vs " << transmissionName2 << " ====> " << lcs1 << "." << endl;
+    outfile << transmissionName1 << " vs " << transmissionName3 << " ====> " << lcs2 << "." << endl;
+    outfile << transmissionName2 << " vs " << transmissionName3 << " ====> " << lcs3 << "." << endl;
 
     outfile.close();
 }
