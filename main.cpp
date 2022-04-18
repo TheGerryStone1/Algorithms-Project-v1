@@ -293,9 +293,6 @@ int main()
     string lcs2 = longestCommonSubstring(transmission1, transmission3, size1, size3);
     string lcs3 = longestCommonSubstring(transmission2, transmission3, size2, size3);
     
-    /*if(lcs1.size() >= lcs2.size() && lcs1.size() >= lcs3.size()) outfile << "Substring mas largo: " << lcs1 << endl;
-    else if (lcs2.size() >= lcs1.size() && lcs2.size() >= lcs3.size()) outfile << "Substring mas largo: " << lcs2 << endl;
-    else outfile << "Substring mas largo: " << lcs3 << endl;*/
     outfile << "Substring en comun mas largo: " << endl;
 
     outfile << transmissionName1 << " vs " << transmissionName2 << " ====> " << lcs1 << "." << endl;
